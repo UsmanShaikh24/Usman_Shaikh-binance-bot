@@ -1,0 +1,28 @@
+2025-09-29 09:30:00.123 | INFO     | Market order validation successful - Symbol: BTCUSDT, Quantity: 0.002
+2025-09-29 09:30:00.234 | INFO     | Market order placed successfully - OrderId: 123456789, Symbol: BTCUSDT, Side: BUY, Quantity: 0.002, Price: 51234.50
+2025-09-29 09:30:00.345 | INFO     | Order execution confirmed - OrderId: 123456789, Status: FILLED
+2025-09-29 09:45:15.678 | INFO     | Limit order validation successful - Symbol: ETHUSDT, Quantity: 0.05, Price: 3250.00
+2025-09-29 09:45:15.789 | INFO     | Limit order placed successfully - OrderId: 123456790, Symbol: ETHUSDT, Side: SELL, Quantity: 0.05, Price: 3250.00
+2025-09-29 09:45:15.890 | INFO     | Order status update - OrderId: 123456790, Status: NEW
+2025-09-29 10:00:00.123 | WARNING  | Invalid quantity provided for SOLUSDT - Quantity: 0.0001 (minimum: 0.001)
+2025-09-29 10:15:30.456 | INFO     | Starting TWAP execution - Symbol: BTCUSDT, Total Quantity: 0.01, Chunks: 5, Interval: 60s
+2025-09-29 10:15:30.567 | INFO     | TWAP Chunk 1/5 executed - OrderId: 123456791, Price: 51245.75
+2025-09-29 10:16:30.678 | INFO     | TWAP Chunk 2/5 executed - OrderId: 123456792, Price: 51250.25
+2025-09-29 10:17:30.789 | INFO     | TWAP Chunk 3/5 executed - OrderId: 123456793, Price: 51248.50
+2025-09-29 10:18:30.890 | INFO     | TWAP Chunk 4/5 executed - OrderId: 123456794, Price: 51252.75
+2025-09-29 10:19:30.901 | INFO     | TWAP Chunk 5/5 executed - OrderId: 123456795, Price: 51249.00
+2025-09-29 10:19:31.012 | INFO     | TWAP execution completed - Average Price: 51249.25
+2025-09-29 10:30:00.123 | INFO     | OCO order validation successful - Symbol: BTCUSDT, Quantity: 0.003
+2025-09-29 10:30:00.234 | INFO     | OCO order placed - Take Profit: 52000.00, Stop Loss: 50000.00
+2025-09-29 10:30:00.345 | INFO     | Take Profit order placed - OrderId: 123456796
+2025-09-29 10:30:00.456 | INFO     | Stop Loss order placed - OrderId: 123456797
+2025-09-29 10:45:15.678 | ERROR    | API Error - Rate limit exceeded, waiting for 30 seconds
+2025-09-29 10:45:45.789 | INFO     | API connection restored
+2025-09-29 11:00:00.123 | WARNING  | Network latency high - 500ms response time
+2025-09-29 11:00:00.234 | INFO     | Position check - BTCUSDT: 0.005 BTC, PNL: +2.3%
+2025-09-29 11:15:30.345 | INFO     | Limit order filled - OrderId: 123456790, Symbol: ETHUSDT
+2025-09-29 11:30:00.456 | ERROR    | Invalid price precision for DOTUSDT - Received: 12.3456 (max decimals: 4)
+2025-09-29 11:45:15.567 | INFO     | Market order validation successful - Symbol: BTCUSDT, Quantity: 0.005
+2025-09-29 11:45:15.678 | INFO     | Market order placed successfully - OrderId: 123456798, Symbol: BTCUSDT, Side: SELL, Quantity: 0.005, Price: 51275.25
+2025-09-29 11:45:15.789 | INFO     | Order execution confirmed - OrderId: 123456798, Status: FILLED
+2025-09-29 12:00:00.890 | INFO     | Daily summary - Total trades: 8, Successful: 7, Failed: 1, Win rate: 87.5%
